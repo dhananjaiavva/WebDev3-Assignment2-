@@ -1,0 +1,27 @@
+{
+  "name": "web-dev-3-assignment-2",
+  "version": "1.0.0",
+  "description": "Student Management REST API - Lab Assignment 2",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "node test_api.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api",
+    "student-management",
+    "crud"
+  ],
+  "author": "Dhananjai Avva",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
